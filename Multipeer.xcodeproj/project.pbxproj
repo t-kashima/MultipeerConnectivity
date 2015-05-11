@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59AD7F331B00D83700433FCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AD7F321B00D83700433FCA /* AppDelegate.swift */; };
+		59AD7F351B00D83700433FCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AD7F341B00D83700433FCA /* ViewController.swift */; };
+		59AD7F381B00D83700433FCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59AD7F361B00D83700433FCA /* Main.storyboard */; };
+		59AD7F3A1B00D83700433FCA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59AD7F391B00D83700433FCA /* Images.xcassets */; };
+		59AD7F3D1B00D83700433FCA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59AD7F3B1B00D83700433FCA /* LaunchScreen.xib */; };
+		59AD7F491B00D83800433FCA /* MultipeerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AD7F481B00D83800433FCA /* MultipeerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59AD7F431B00D83800433FCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59AD7F251B00D83600433FCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59AD7F2C1B00D83600433FCA;
+			remoteInfo = Multipeer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59AD7F2D1B00D83700433FCA /* Multipeer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Multipeer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59AD7F311B00D83700433FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59AD7F321B00D83700433FCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59AD7F341B00D83700433FCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		59AD7F371B00D83700433FCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59AD7F391B00D83700433FCA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		59AD7F3C1B00D83700433FCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		59AD7F421B00D83800433FCA /* MultipeerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipeerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59AD7F471B00D83800433FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59AD7F481B00D83800433FCA /* MultipeerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59AD7F2A1B00D83600433FCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59AD7F3F1B00D83800433FCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59AD7F241B00D83600433FCA = {
+			isa = PBXGroup;
+			children = (
+				59AD7F2F1B00D83700433FCA /* Multipeer */,
+				59AD7F451B00D83800433FCA /* MultipeerTests */,
+				59AD7F2E1B00D83700433FCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59AD7F2E1B00D83700433FCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59AD7F2D1B00D83700433FCA /* Multipeer.app */,
+				59AD7F421B00D83800433FCA /* MultipeerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59AD7F2F1B00D83700433FCA /* Multipeer */ = {
+			isa = PBXGroup;
+			children = (
+				59AD7F321B00D83700433FCA /* AppDelegate.swift */,
+				59AD7F341B00D83700433FCA /* ViewController.swift */,
+				59AD7F361B00D83700433FCA /* Main.storyboard */,
+				59AD7F391B00D83700433FCA /* Images.xcassets */,
+				59AD7F3B1B00D83700433FCA /* LaunchScreen.xib */,
+				59AD7F301B00D83700433FCA /* Supporting Files */,
+			);
+			path = Multipeer;
+			sourceTree = "<group>";
+		};
+		59AD7F301B00D83700433FCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59AD7F311B00D83700433FCA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59AD7F451B00D83800433FCA /* MultipeerTests */ = {
+			isa = PBXGroup;
+			children = (
+				59AD7F481B00D83800433FCA /* MultipeerTests.swift */,
+				59AD7F461B00D83800433FCA /* Supporting Files */,
+			);
+			path = MultipeerTests;
+			sourceTree = "<group>";
+		};
+		59AD7F461B00D83800433FCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59AD7F471B00D83800433FCA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59AD7F2C1B00D83600433FCA /* Multipeer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59AD7F4C1B00D83800433FCA /* Build configuration list for PBXNativeTarget "Multipeer" */;
+			buildPhases = (
+				59AD7F291B00D83600433FCA /* Sources */,
+				59AD7F2A1B00D83600433FCA /* Frameworks */,
+				59AD7F2B1B00D83600433FCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Multipeer;
+			productName = Multipeer;
+			productReference = 59AD7F2D1B00D83700433FCA /* Multipeer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59AD7F411B00D83800433FCA /* MultipeerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59AD7F4F1B00D83800433FCA /* Build configuration list for PBXNativeTarget "MultipeerTests" */;
+			buildPhases = (
+				59AD7F3E1B00D83800433FCA /* Sources */,
+				59AD7F3F1B00D83800433FCA /* Frameworks */,
+				59AD7F401B00D83800433FCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59AD7F441B00D83800433FCA /* PBXTargetDependency */,
+			);
+			name = MultipeerTests;
+			productName = MultipeerTests;
+			productReference = 59AD7F421B00D83800433FCA /* MultipeerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59AD7F251B00D83600433FCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "UNUUU FOUNDATION";
+				TargetAttributes = {
+					59AD7F2C1B00D83600433FCA = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					59AD7F411B00D83800433FCA = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 59AD7F2C1B00D83600433FCA;
+					};
+				};
+			};
+			buildConfigurationList = 59AD7F281B00D83600433FCA /* Build configuration list for PBXProject "Multipeer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59AD7F241B00D83600433FCA;
+			productRefGroup = 59AD7F2E1B00D83700433FCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59AD7F2C1B00D83600433FCA /* Multipeer */,
+				59AD7F411B00D83800433FCA /* MultipeerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59AD7F2B1B00D83600433FCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59AD7F381B00D83700433FCA /* Main.storyboard in Resources */,
+				59AD7F3D1B00D83700433FCA /* LaunchScreen.xib in Resources */,
+				59AD7F3A1B00D83700433FCA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59AD7F401B00D83800433FCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59AD7F291B00D83600433FCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59AD7F351B00D83700433FCA /* ViewController.swift in Sources */,
+				59AD7F331B00D83700433FCA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59AD7F3E1B00D83800433FCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59AD7F491B00D83800433FCA /* MultipeerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59AD7F441B00D83800433FCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59AD7F2C1B00D83600433FCA /* Multipeer */;
+			targetProxy = 59AD7F431B00D83800433FCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59AD7F361B00D83700433FCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59AD7F371B00D83700433FCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59AD7F3B1B00D83700433FCA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59AD7F3C1B00D83700433FCA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59AD7F4A1B00D83800433FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		59AD7F4B1B00D83800433FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59AD7F4D1B00D83800433FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Multipeer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		59AD7F4E1B00D83800433FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Multipeer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		59AD7F501B00D83800433FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MultipeerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multipeer.app/Multipeer";
+			};
+			name = Debug;
+		};
+		59AD7F511B00D83800433FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MultipeerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multipeer.app/Multipeer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59AD7F281B00D83600433FCA /* Build configuration list for PBXProject "Multipeer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59AD7F4A1B00D83800433FCA /* Debug */,
+				59AD7F4B1B00D83800433FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59AD7F4C1B00D83800433FCA /* Build configuration list for PBXNativeTarget "Multipeer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59AD7F4D1B00D83800433FCA /* Debug */,
+				59AD7F4E1B00D83800433FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		59AD7F4F1B00D83800433FCA /* Build configuration list for PBXNativeTarget "MultipeerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59AD7F501B00D83800433FCA /* Debug */,
+				59AD7F511B00D83800433FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59AD7F251B00D83600433FCA /* Project object */;
+}
