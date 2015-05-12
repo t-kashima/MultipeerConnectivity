@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5960D92B1B020BF5004A8808 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5960D92A1B020BF5004A8808 /* MediaPlayer.framework */; };
+		5960D92D1B022521004A8808 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5960D92C1B022521004A8808 /* TopViewController.swift */; };
+		5960D9301B0225BB004A8808 /* ListenerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5960D92E1B0225BB004A8808 /* ListenerViewController.swift */; };
+		5960D9311B0225BB004A8808 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5960D92F1B0225BB004A8808 /* PlayerViewController.swift */; };
 		59AD7F331B00D83700433FCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AD7F321B00D83700433FCA /* AppDelegate.swift */; };
-		59AD7F351B00D83700433FCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AD7F341B00D83700433FCA /* ViewController.swift */; };
 		59AD7F381B00D83700433FCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59AD7F361B00D83700433FCA /* Main.storyboard */; };
 		59AD7F3A1B00D83700433FCA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59AD7F391B00D83700433FCA /* Images.xcassets */; };
 		59AD7F3D1B00D83700433FCA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59AD7F3B1B00D83700433FCA /* LaunchScreen.xib */; };
 		59AD7F491B00D83800433FCA /* MultipeerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AD7F481B00D83800433FCA /* MultipeerTests.swift */; };
+		59AD7F531B00D85B00433FCA /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59AD7F521B00D85B00433FCA /* MultipeerConnectivity.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +30,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5960D92A1B020BF5004A8808 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		5960D92C1B022521004A8808 /* TopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		5960D92E1B0225BB004A8808 /* ListenerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListenerViewController.swift; sourceTree = "<group>"; };
+		5960D92F1B0225BB004A8808 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		59AD7F2D1B00D83700433FCA /* Multipeer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Multipeer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59AD7F311B00D83700433FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59AD7F321B00D83700433FCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		59AD7F341B00D83700433FCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		59AD7F371B00D83700433FCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		59AD7F391B00D83700433FCA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		59AD7F3C1B00D83700433FCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		59AD7F421B00D83800433FCA /* MultipeerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipeerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59AD7F471B00D83800433FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59AD7F481B00D83800433FCA /* MultipeerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerTests.swift; sourceTree = "<group>"; };
+		59AD7F521B00D85B00433FCA /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5960D92B1B020BF5004A8808 /* MediaPlayer.framework in Frameworks */,
+				59AD7F531B00D85B00433FCA /* MultipeerConnectivity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +88,9 @@
 			isa = PBXGroup;
 			children = (
 				59AD7F321B00D83700433FCA /* AppDelegate.swift */,
-				59AD7F341B00D83700433FCA /* ViewController.swift */,
+				5960D92C1B022521004A8808 /* TopViewController.swift */,
+				5960D92F1B0225BB004A8808 /* PlayerViewController.swift */,
+				5960D92E1B0225BB004A8808 /* ListenerViewController.swift */,
 				59AD7F361B00D83700433FCA /* Main.storyboard */,
 				59AD7F391B00D83700433FCA /* Images.xcassets */,
 				59AD7F3B1B00D83700433FCA /* LaunchScreen.xib */,
@@ -90,6 +102,8 @@
 		59AD7F301B00D83700433FCA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5960D92A1B020BF5004A8808 /* MediaPlayer.framework */,
+				59AD7F521B00D85B00433FCA /* MultipeerConnectivity.framework */,
 				59AD7F311B00D83700433FCA /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -212,7 +226,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59AD7F351B00D83700433FCA /* ViewController.swift in Sources */,
+				5960D9301B0225BB004A8808 /* ListenerViewController.swift in Sources */,
+				5960D9311B0225BB004A8808 /* PlayerViewController.swift in Sources */,
+				5960D92D1B022521004A8808 /* TopViewController.swift in Sources */,
 				59AD7F331B00D83700433FCA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +357,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Multipeer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -351,6 +368,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Multipeer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -409,6 +427,7 @@
 				59AD7F4E1B00D83800433FCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59AD7F4F1B00D83800433FCA /* Build configuration list for PBXNativeTarget "MultipeerTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +436,7 @@
 				59AD7F511B00D83800433FCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

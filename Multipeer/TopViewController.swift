@@ -8,18 +8,24 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TopViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    @IBAction func didTapPlayer(sender: AnyObject) {
+        performSegueWithIdentifier("goToPlayerView", sender: nil)
+    }
+    
+    
+    @IBAction func didTapListener(sender: AnyObject) {
+        performSegueWithIdentifier("goToListenerView", sender: nil)
+    }
 }
 
